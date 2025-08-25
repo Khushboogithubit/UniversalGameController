@@ -72,27 +72,13 @@ while True:
 
 Run the project and control your favorite games 🎮 using just your **hand gestures** in front of a webcam.  
 
----
 
-## Demo / Screenshots
-
-Here’s how it looks in action 👇  
-
-### Gesture Detection  
-![Gesture Detection Demo](assets/gesture_demo.gif)  
-
-### Game Control Example  
-![Game Control Example](assets/game_control.png)  
-
-*(Place your actual GIFs or screenshots inside an `assets/` folder in the repository and update the file paths.)*  
-
----
 
 ## Follow Me
 
 - GitHub: [Khushboogithubit](https://github.com/Khushboogithubit)  
-- LinkedIn: *your-link-here*  
-- Email: *your-email@example.com*  
+- LinkedIn: [khushboo_jain](https://www.linkedin.com/in/khushboo-jain-95b395201/)  
+- Email: jainkhushboojain04@gmail.com 
 
 If you have any confusion, please feel free to contact me. Thank you 💡
 
