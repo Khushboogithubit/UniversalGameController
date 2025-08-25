@@ -14,24 +14,29 @@ Install the required packages with pip:
 pip install mediapipe
 pip install opencv-python
 pip install pynput
+```
 
-Deployment
+---
+
+## Deployment
+
 To deploy and run this project, execute:
 
-bash
-Copy
-Edit
+```bash
 python gesture.py
+```
+
 or for direct keyboard/mouse input:
 
-bash
-Copy
-Edit
+```bash
 python direct.py
-Example Code (Gesture Control)
-python
-Copy
-Edit
+```
+
+---
+
+## Example Code (Gesture Control)
+
+```python
 import cv2
 import mediapipe as mp
 from pynput.keyboard import Key, Controller
@@ -59,29 +64,42 @@ while True:
     cv2.imshow("Universal Game Controller", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-Output
-Run the project and control your favorite games 🎮 using just your hand gestures in front of a webcam.
+```
 
-Demo / Screenshots
-Here’s how it looks in action 👇
+---
 
-Gesture Detection
+## Output
 
-Game Control Example
+Run the project and control your favorite games 🎮 using just your **hand gestures** in front of a webcam.  
 
-(Place your actual GIFs or screenshots inside an assets/ folder in the repository and update the file paths.)
+---
 
-Follow Me
-GitHub: Khushboogithubit
+## Demo / Screenshots
 
-LinkedIn: your-link-here
+Here’s how it looks in action 👇  
 
-Email: your-email@example.com
+### Gesture Detection  
+![Gesture Detection Demo](assets/gesture_demo.gif)  
+
+### Game Control Example  
+![Game Control Example](assets/game_control.png)  
+
+*(Place your actual GIFs or screenshots inside an `assets/` folder in the repository and update the file paths.)*  
+
+---
+
+## Follow Me
+
+- GitHub: [Khushboogithubit](https://github.com/Khushboogithubit)  
+- LinkedIn: *your-link-here*  
+- Email: *your-email@example.com*  
 
 If you have any confusion, please feel free to contact me. Thank you 💡
 
-License
-This script is released under the MIT License.
-You are free to use, modify, and distribute it.
-If you find any bugs or have suggestions for improvement, please submit an issue or pull request in this repository.
+---
 
+## License
+
+This script is released under the **MIT License**.  
+You are free to **use, modify, and distribute** it.  
+If you find any bugs or have suggestions for improvement, please submit an **issue** or **pull request** in this repository.  
